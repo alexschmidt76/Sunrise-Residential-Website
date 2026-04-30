@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Container, Navbar, Nav, Button } from "react-bootstrap";
-import "../style_sheets/HamburgerMenu.css";
+
+import "../style_sheets/NavigationBar.css";
 
 const NavigationBar = () => {
     const [isOpen, setIsOpen] = useState(false);
